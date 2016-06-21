@@ -1,7 +1,7 @@
 {
   "name": "socialgrid/snssender",
   "description": "",
-  "keywords": [aws, sns, laravel],
+  "keywords": ["aws", "sns", "laravel"],
   "license": "MIT",
   "authors": [
     {
