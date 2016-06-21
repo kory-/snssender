@@ -1,0 +1,27 @@
+{
+  "name": "socialgrid/snssender",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Keita Shimono",
+      "email": "shimono@socialgrid.co.jp"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0",
+    "aws/aws-sdk-php": "3.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Socialgrid\\SnsSender\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
